@@ -2,7 +2,6 @@ import flet as ft
 
 
 
-
 def main(page: ft.Page):
 
     page.title = "App teste"
@@ -10,5 +9,5 @@ def main(page: ft.Page):
     page.add(ft.Text("Teste"))
     
 
-ft.app(main,view=ft.WEB_BROWSER)
+ft.app(main)
 
